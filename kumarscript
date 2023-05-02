@@ -26,7 +26,7 @@ print("ikinci oyuncunun bahisi:", Bahis2.."TL")
 print("ilk oyuncu için çark dönüyor... ")
 print("ilk oyuncuya çikan sayı", xbahis)
 print("ikinci oyuncu için çark dönüyor")
-print("ikinci oyuncuya çikan sayı", ybahis)
+print("ikinci oyuncuya çikan sayi", ybahis)
 -- printler
 -- ihtimal bilmemneleri
 if xbahis > ybahis then
@@ -38,7 +38,7 @@ if ybahis > xbahis then
 end
 
 if xbahis == ybahis then
-    print("Sonuçlar eşit çıktı tekrar döndürülüyor...")
+    print("Sonuçlar eşit çikti tekrar döndürülüyor...")
     tekrar()
 end
 --ihtimal bilmemneleri
