@@ -21,12 +21,12 @@ print("Bahisleri girin")
 Bahis1 = 50
 Bahis2 = 100
 -- printler
-print("İlk oyuncunun bahisi:", Bahis1.."TL")
-print("İkinci oyuncunun bahisi:", Bahis2.."TL")
-print("İlk oyuncu için çark dönüyor... ")
-print("İlk oyuncuya çıkan sayı", xbahis)
-print("İkinci oyuncu için çark dönüyor")
-print("İkinci oyuncuya çıkan sayı", ybahis)
+print("ilk oyuncunun bahisi:", Bahis1.."TL")
+print("ikinci oyuncunun bahisi:", Bahis2.."TL")
+print("ilk oyuncu için çark dönüyor... ")
+print("ilk oyuncuya çikan sayı", xbahis)
+print("ikinci oyuncu için çark dönüyor")
+print("ikinci oyuncuya çikan sayı", ybahis)
 -- printler
 -- ihtimal bilmemneleri
 if xbahis > ybahis then
