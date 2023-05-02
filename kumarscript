@@ -1,0 +1,46 @@
+function tekrar()
+   xxbahis = math.random(0,36)
+   yybahis = math.random(0,36)
+   print("İlk oyuncu:", xx)
+   print("ikinci oyuncu:", yy)
+   if xxbahis > yybahis then
+       print("İlk oyuncu kazandı ödülü:", Bahis1 + Bahis2)
+   end
+   if yybahis > xxbahis then
+       print("ikinci oyuncu kazandı ödülü:", Bahis1 + Bahis2)
+       end
+   if yybahis == xxbahis then
+       tekrar()
+    end
+end
+-- random sayı olayı
+local xbahis = math.random(1,36)
+local ybahis = math.random(1,36)
+--random sayı olayı
+print("Bahisleri girin")
+Bahis1 = 50
+Bahis2 = 100
+-- printler
+print("İlk oyuncunun bahisi:", Bahis1.."TL")
+print("İkinci oyuncunun bahisi:", Bahis2.."TL")
+print("İlk oyuncu için çark dönüyor... ")
+print("İlk oyuncuya çıkan sayı", xbahis)
+print("İkinci oyuncu için çark dönüyor")
+print("İkinci oyuncuya çıkan sayı", ybahis)
+-- printler
+-- ihtimal bilmemneleri
+if xbahis > ybahis then
+    print("İlk oyuncu kazandı ödülü:", Bahis1 + Bahis2)
+end
+
+if ybahis > xbahis then
+    print("İkinci oyuncu kazandı ödülü:", Bahis1 + Bahis2)
+end
+
+if xbahis == ybahis then
+    print("Sonuçlar eşit çıktı tekrar döndürülüyor...")
+    tekrar()
+end
+--ihtimal bilmemneleri
+
+   
