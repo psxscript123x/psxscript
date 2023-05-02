@@ -42,6 +42,4 @@ if xbahis == ybahis then
     tekrar()
 end
 --ihtimal bilmemneleri
-wait(5)
-<void> rconsoleclear(<void>)
-   
+
